@@ -31,7 +31,6 @@ export default function Standings({ standings }: { standings: Standing[] }) {
  
   const [arr, setArr] = useState<Standing[]>(standings);
   const [filter, setFilter] = useState<string | undefined>();
-console.log(arr)
   useEffect(() => {
       if (filter === 'MOST_PLAYED') {
           setArr([...arr].sort((a, b) => b.played - a.played));

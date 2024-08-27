@@ -8,9 +8,12 @@ interface MatchProps {
 }
 
 export default function matches({ date, home_team, away_team, result }: MatchProps) {
-    const homeFlag = home_team.toLowerCase();
-    const awayFlag = away_team.toLowerCase();
-    console.log(awayFlag)
+
+    // const homeFlag = home_team.toLowerCase();
+    // const awayFlag = away_team.toLowerCase();
+    const homeFlag = home_team ? home_team.toLowerCase() : 'unknown';
+    const awayFlag = away_team ? away_team.toLowerCase() : 'unknown';
+
     return (<>
         <div className="p-6 my-4 bg-indigo-300 text-white">
       <h2 className="text-2xl font-bold mb-4">{date}</h2>

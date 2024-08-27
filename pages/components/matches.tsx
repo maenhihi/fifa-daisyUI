@@ -11,8 +11,9 @@ export default function matches({ date, home_team, away_team, result }: MatchPro
 
     // const homeFlag = home_team.toLowerCase();
     // const awayFlag = away_team.toLowerCase();
-    const homeFlag = home_team ? home_team.toLowerCase() : 'unknown';
-    const awayFlag = away_team ? away_team.toLowerCase() : 'unknown';
+    const homeFlag = (home_team || '').toLowerCase();
+const awayFlag = (away_team || '').toLowerCase();
+
 
     return (<>
         <div className="p-6 my-4 bg-indigo-300 text-white">

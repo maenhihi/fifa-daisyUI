@@ -24,8 +24,8 @@ type Standing = {
     wins: number;
     draws: number;
     losses: number;
+    points:number;
 };
-
 
 export default function standings({ standings }: { standings: Standing[] }) {    
  

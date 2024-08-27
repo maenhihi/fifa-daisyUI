@@ -27,7 +27,7 @@ type Standing = {
     points:number;
 };
 
-export default function standings({ standings }: { standings: Standing[] }) {    
+export default function Standings({ standings }: { standings: Standing[] }) {    
  
   const [arr, setArr] = useState<Standing[]>(standings);
   const [filter, setFilter] = useState<string | undefined>();

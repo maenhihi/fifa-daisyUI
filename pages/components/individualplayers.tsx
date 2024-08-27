@@ -3,16 +3,15 @@ interface MatchProps{
     position: string;
     age: number;
     club: string;
-    id:number;
 }
 
 
 
-export default function individualplayers({name, position, age, club, id}: MatchProps) {
+export default function individualplayers({name, position, age, club}: MatchProps) {
 
     return (
   
- <div className="card card-side bg-base-100 shadow-xl w-3/4 " key={id}>
+ <div className="card card-side bg-base-100 shadow-xl w-3/4 ">
   <figure className="w-fit md:w-1/4 max-h-64 overflow-hidden">
     <img
       src={`/players/${name}.jpg`}

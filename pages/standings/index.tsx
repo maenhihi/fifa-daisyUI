@@ -29,7 +29,7 @@ type Standing = {
 
 export default function standings({ standings }: { standings: Standing[] }) {    
  
-  const [arr, setArr] = useState(standings);
+  const [arr, setArr] = useState<Standing[]>(standings);
   const [filter, setFilter] = useState<string | undefined>();
 console.log(arr)
   useEffect(() => {

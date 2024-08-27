@@ -80,9 +80,10 @@ console.log(arr)
     <tbody>
       {/* individual row */}
       {arr.map((array: {
-                   draws:number; team: string; played: number; wins: number; losses: number; points:number;
+                  id:string; draws:number; team: string; played: number; wins: number; losses: number; points:number;
                 }) => (
                     <Standingstable
+                    key={array.id}
                         team={array.team}
                         played={array.played}
                         wins={array.wins}

@@ -14,7 +14,8 @@ export default function Home() {
     <div>
       <h1 className="text-5xl font-bold text-white">FIFA World Cup!</h1>
       <p className="py-6 text-indigo-100">
-      Get ready to experience the thrill of the world's biggest football tournament like never before. Our app brings you closer to the action with real-time scores, live updates, exclusive content, and interactive features designed for true football fans.
+      {/* Get ready to experience the thrill of the world's biggest football tournament like never before. Our app brings you closer to the action with real-time scores, live updates, exclusive content, and interactive features designed for true football fans. */}
+      Get ready to experience the thrill of the world&apos;s biggest football tournament like never before. Our app brings you closer to the action with real-time scores, live updates, exclusive content, and interactive features designed for true football fans.
       </p>
       <button className="btn btn-primary bg-indigo-400 border-none text-indigo-100">
         <Link

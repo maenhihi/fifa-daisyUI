@@ -79,7 +79,7 @@ export default function teams({ team }: any) {
       </section>
       
       <section id="team__lower" className='bg-indigo-200 p-0'>
-      <h2 className='p-4 text-indigo-900 flex justify-around items-center text-3xl font-bold'>Here's how {team.name} has been going so far</h2>
+      <h2 className='p-4 text-indigo-900 flex justify-around items-center text-3xl font-bold'>Here&apos;s how {team.name} has been going so far</h2>
 
 
         <div className="flex flex-wrap justify-around items-center gap-4">
@@ -92,7 +92,7 @@ export default function teams({ team }: any) {
           ))}
         </div>
       
-        <h2 className='p-4 text-indigo-900 text-3xl font-bold flex justify-around items-center'>Here's a spotlight on {team.name}'s brightest stars in this edition's World Cup</h2>
+        <h2 className='p-4 text-indigo-900 text-3xl font-bold flex justify-around items-center'>Here&apos;s a spotlight on {team.name}&apos;s brightest stars in this edition&apos;s World Cup</h2>
         <div className='flex flex-wrap justify-center items-center gap-4'>
           {teamPlayers.map((array: { name: string; position: string; age: number; club: string; }) => (
             <Individualplayers

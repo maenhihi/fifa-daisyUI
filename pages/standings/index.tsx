@@ -28,10 +28,10 @@ type Standing = {
 
 
 export default function standings({ standings }: { standings: Standing[] }) {    
-  
+ 
   const [arr, setArr] = useState(standings);
   const [filter, setFilter] = useState<string | undefined>();
-
+console.log(arr)
   useEffect(() => {
       if (filter === 'MOST_PLAYED') {
           setArr([...arr].sort((a, b) => b.played - a.played));
@@ -78,17 +78,16 @@ export default function standings({ standings }: { standings: Standing[] }) {
       </tr>
     </thead>
     <tbody>
-      {/* row 1 */}
+      {/* individual row */}
       {arr.map((array: {
-                    draws: number; id: React.Key | null | undefined; team: string; played: number; wins: number; losses: number; points:number;
+                   draws:number; team: string; played: number; wins: number; losses: number; points:number;
                 }) => (
                     <Standingstable
-                        key={array.id}
                         team={array.team}
                         played={array.played}
                         wins={array.wins}
                         draws={array.draws}
-                        losses={array.draws}
+                        losses={array.losses}
                         points={array.points}
                     />
                 ))}

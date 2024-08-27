@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 
-/* 
-h2{font-size: 32px;
-font-weight: bold;} */
-
 #landing, #teams, #matches{
     background: #a5b4fc;
 }

@@ -3,12 +3,13 @@ interface MatchProps {
     date: string;
     opponent: string;
     result: string;
+    id: number;
 }
 
-export default function individualTeamMatch({ date, opponent, result }: MatchProps) {
+export default function individualTeamMatch({ date, opponent, result, id }: MatchProps) {
 
     return (
-        <div className="matches__individual--wrapper">
+        <div className="matches__individual--wrapper" key={id}>
             <div className="card glass w-70 md:w-96">
                 <figure>
                     <img

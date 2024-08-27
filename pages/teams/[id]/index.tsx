@@ -83,9 +83,9 @@ export default function teams({ team }: any) {
 
 
         <div className="flex flex-wrap justify-around items-center gap-4">
-          {recentMatches.map((array: { id: Key | null | undefined; date: string; opponent: string; result: string; }) => (
+          {recentMatches.map((array: { id: number; date: string; opponent: string; result: string; }) => (
             <IndividualTeamMatch
-              key={array.id}
+              id={array.id}
               date={array.date}
               opponent={array.opponent}
               result={array.result}
@@ -95,10 +95,10 @@ export default function teams({ team }: any) {
       
         <h2 className='p-4 text-indigo-900 text-3xl font-bold flex justify-around items-center'>Here's a spotlight on {team.name}'s brightest stars in this edition's World Cup</h2>
         <div className='flex flex-wrap justify-center items-center gap-4'>
-          {teamPlayers.map((array: { id: Key | null | undefined; name: string; position: string; age: number; club: string; }) => (
+          {teamPlayers.map((array: { id: number; name: string; position: string; age: number; club: string; }) => (
             <Individualplayers
-              key={array.id}
-              name={array.name}
+            id={array.id}
+            name={array.name}
               position={array.position}
               age={array.age}
               club={array.club}

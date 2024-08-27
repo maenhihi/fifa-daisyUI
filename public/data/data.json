@@ -1,0 +1,527 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "Brazil",
+      "flag": "/flags/brazil.png",
+      "country": "Brazil",
+      "coach": "Tite",
+      "history": "Brazil is the most successful national team in the history of the FIFA World Cup, having won five titles (1958, 1962, 1970, 1994, and 2002). Known for their attacking style and skillful players.",
+      "players": [
+        {
+          "name": "Alisson",
+          "position": "Goalkeeper",
+          "age": 30,
+          "club": "Liverpool"
+        },
+        {
+          "name": "Neymar",
+          "position": "Forward",
+          "age": 31,
+          "club": "Paris Saint-Germain"
+        },
+        {
+          "name": "Casemiro",
+          "position": "Midfielder",
+          "age": 32,
+          "club": "Manchester United"
+        },
+        {
+          "name": "Thiago Silva",
+          "position": "Defender",
+          "age": 39,
+          "club": "Chelsea"
+        }
+      ],
+      "recent_matches": [
+        { "opponent": "Argentina", "date": "2023-08-01", "result": "Win 2-1" },
+        { "opponent": "Germany", "date": "2023-07-25", "result": "Draw 0-0" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Argentina",
+      "flag": "/flags/argentina.png",
+      "country": "Argentina",
+      "coach": "Lionel Scaloni",
+      "history": "Argentina has won the FIFA World Cup three times (1978, 1986, and 2022). They are known for producing world-class talent, including Diego Maradona and Lionel Messi.",
+      "players": [
+        {
+          "name": "Lionel Messi",
+          "position": "Forward",
+          "age": 37,
+          "club": "Inter Miami"
+        },
+        {
+          "name": "Angel Di Maria",
+          "position": "Winger",
+          "age": 36,
+          "club": "Benfica"
+        },
+        {
+          "name": "Nicolás Otamendi",
+          "position": "Defender",
+          "age": 35,
+          "club": "Benfica"
+        },
+        {
+          "name": "Lautaro Martínez",
+          "position": "Forward",
+          "age": 26,
+          "club": "Inter Milan"
+        }
+      ],
+      "recent_matches": [
+        { "opponent": "Brazil", "date": "2023-08-01", "result": "Loss 1-2" },
+        { "opponent": "France", "date": "2023-07-20", "result": "Win 3-2" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Germany",
+      "flag": "/flags/germany.png",
+      "country": "Germany",
+      "coach": "Hansi Flick",
+      "history": "Germany has won the FIFA World Cup four times (1954, 1974, 1990, 2014). They are renowned for their tactical discipline, strong defense, and efficient gameplay.",
+      "players": [
+        {
+          "name": "Manuel Neuer",
+          "position": "Goalkeeper",
+          "age": 38,
+          "club": "Bayern Munich"
+        },
+        {
+          "name": "Thomas Müller",
+          "position": "Forward",
+          "age": 34,
+          "club": "Bayern Munich"
+        },
+        {
+          "name": "Toni Kroos",
+          "position": "Midfielder",
+          "age": 34,
+          "club": "Real Madrid"
+        },
+        {
+          "name": "Joshua Kimmich",
+          "position": "Defender",
+          "age": 29,
+          "club": "Bayern Munich"
+        }
+      ],
+      "recent_matches": [
+        { "opponent": "Brazil", "date": "2023-07-25", "result": "Draw 0-0" },
+        { "opponent": "Spain", "date": "2023-07-15", "result": "Loss 1-3" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "France",
+      "flag": "/flags/france.png",
+      "country": "France",
+      "coach": "Didier Deschamps",
+      "history": "France has won the FIFA World Cup twice (1998, 2018) and is known for their strong squad depth and producing some of the best football talents in the world.",
+      "players": [
+        {
+          "name": "Kylian Mbappé",
+          "position": "Forward",
+          "age": 25,
+          "club": "Paris Saint-Germain"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "position": "Forward",
+          "age": 33,
+          "club": "Atlético Madrid"
+        },
+        {
+          "name": "Paul Pogba",
+          "position": "Midfielder",
+          "age": 31,
+          "club": "Juventus"
+        },
+        {
+          "name": "Hugo Lloris",
+          "position": "Goalkeeper",
+          "age": 37,
+          "club": "Tottenham Hotspur"
+        }
+      ],
+      "recent_matches": [
+        { "opponent": "Argentina", "date": "2023-07-20", "result": "Loss 2-3" },
+        { "opponent": "Italy", "date": "2023-07-10", "result": "Win 2-0" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Spain",
+      "flag": "/flags/spain.png",
+      "country": "Spain",
+      "coach": "Luis Enrique",
+      "history": "Spain won their first FIFA World Cup in 2010 with a style of play known as 'tiki-taka', characterized by short passing and maintaining possession.",
+      "players": [
+        {
+          "name": "Sergio Ramos",
+          "position": "Defender",
+          "age": 38,
+          "club": "Sevilla"
+        },
+        {
+          "name": "Gerard Moreno",
+          "position": "Forward",
+          "age": 32,
+          "club": "Villarreal"
+        },
+        {
+          "name": "Jordi Alba",
+          "position": "Defender",
+          "age": 35,
+          "club": "Inter Miami"
+        },
+        {
+          "name": "David de Gea",
+          "position": "Goalkeeper",
+          "age": 33,
+          "club": "Free Agent"
+        }
+      ],
+      "recent_matches": [
+        { "opponent": "Germany", "date": "2023-07-15", "result": "Win 3-1" },
+        { "opponent": "Portugal", "date": "2023-07-05", "result": "Draw 1-1" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Italy",
+      "flag": "/flags/italy.png",
+      "country": "Italy",
+      "coach": "Roberto Mancini",
+      "history": "Italy is a four-time FIFA World Cup winner (1934, 1938, 1982, 2006) and is known for their strong defensive play, often referred to as 'Catenaccio'.",
+      "players": [
+        {
+          "name": "Gianluigi Donnarumma",
+          "position": "Goalkeeper",
+          "age": 25,
+          "club": "Paris Saint-Germain"
+        },
+        {
+          "name": "Leonardo Bonucci",
+          "position": "Defender",
+          "age": 37,
+          "club": "Union Berlin"
+        },
+        {
+          "name": "Marco Verratti",
+          "position": "Midfielder",
+          "age": 31,
+          "club": "Al-Arabi"
+        },
+        {
+          "name": "Ciro Immobile",
+          "position": "Forward",
+          "age": 34,
+          "club": "Lazio"
+        }
+      ],
+      "recent_matches": [
+        { "opponent": "France", "date": "2023-07-10", "result": "Loss 0-2" },
+        { "opponent": "Netherlands", "date": "2023-06-30", "result": "Win 1-0" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Netherlands",
+      "flag": "/flags/netherlands.png",
+      "country": "Netherlands",
+      "coach": "Louis van Gaal",
+      "history": "The Netherlands, despite being runners-up three times (1974, 1978, 2010), has never won the FIFA World Cup. They are known for their 'Total Football' philosophy.",
+      "players": [
+        {
+          "name": "Virgil van Dijk",
+          "position": "Defender",
+          "age": 32,
+          "club": "Liverpool"
+        },
+        {
+          "name": "Memphis Depay",
+          "position": "Forward",
+          "age": 30,
+          "club": "Atlético Madrid"
+        },
+        {
+          "name": "Frenkie de Jong",
+          "position": "Midfielder",
+          "age": 27,
+          "club": "Barcelona"
+        },
+        {
+          "name": "Georginio Wijnaldum",
+          "position": "Midfielder",
+          "age": 33,
+          "club": "Al-Ettifaq"
+        }
+      ],
+      "recent_matches": [
+        { "opponent": "Italy", "date": "2023-06-30", "result": "Loss 0-1" },
+        { "opponent": "England", "date": "2023-06-25", "result": "Win 2-1" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "England",
+      "flag": "/flags/england.png",
+      "country": "England",
+      "coach": "Gareth Southgate",
+      "history": "England won their only FIFA World Cup in 1966, and since then, they've consistently been considered one of the top footballing nations.",
+      "players": [
+        {
+          "name": "Harry Kane",
+          "position": "Forward",
+          "age": 30,
+          "club": "Bayern Munich"
+        },
+        {
+          "name": "Raheem Sterling",
+          "position": "Winger",
+          "age": 29,
+          "club": "Chelsea"
+        },
+        {
+          "name": "Jordan Henderson",
+          "position": "Midfielder",
+          "age": 34,
+          "club": "Al-Ettifaq"
+        },
+        {
+          "name": "Marcus Rashford",
+          "position": "Forward",
+          "age": 26,
+          "club": "Manchester United"
+        }
+      ],
+      "recent_matches": [
+        {
+          "opponent": "Netherlands",
+          "date": "2023-06-25",
+          "result": "Loss 1-2"
+        },
+        { "opponent": "Belgium", "date": "2023-06-15", "result": "Win 3-0" }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Belgium",
+      "flag": "/flags/belgium.png",
+      "country": "Belgium",
+      "coach": "Roberto Martínez",
+      "history": "Belgium's 'Golden Generation' has seen them consistently rank at the top of FIFA standings in recent years, though they have yet to win a World Cup.",
+      "players": [
+        {
+          "name": "Kevin De Bruyne",
+          "position": "Midfielder",
+          "age": 33,
+          "club": "Manchester City"
+        },
+        {
+          "name": "Eden Hazard",
+          "position": "Winger",
+          "age": 33,
+          "club": "Retired"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "position": "Forward",
+          "age": 31,
+          "club": "AS Roma"
+        },
+        {
+          "name": "Thibaut Courtois",
+          "position": "Goalkeeper",
+          "age": 32,
+          "club": "Real Madrid"
+        }
+      ],
+      "recent_matches": [
+        { "opponent": "England", "date": "2023-06-15", "result": "Loss 0-3" },
+        { "opponent": "Portugal", "date": "2023-06-05", "result": "Win 1-0" }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Portugal",
+      "flag": "/flags/portugal.png",
+      "country": "Portugal",
+      "coach": "Fernando Santos",
+      "history": "Portugal won their first major international tournament at Euro 2016, led by their iconic captain Cristiano Ronaldo.",
+      "players": [
+        {
+          "name": "Cristiano Ronaldo",
+          "position": "Forward",
+          "age": 39,
+          "club": "Al-Nassr"
+        },
+        {
+          "name": "Bruno Fernandes",
+          "position": "Midfielder",
+          "age": 29,
+          "club": "Manchester United"
+        },
+        {
+          "name": "João Félix",
+          "position": "Forward",
+          "age": 24,
+          "club": "Barcelona"
+        },
+        { "name": "Pepe", "position": "Defender", "age": 41, "club": "Porto" }
+      ],
+      "recent_matches": [
+        { "opponent": "Belgium", "date": "2023-06-05", "result": "Loss 0-1" },
+        { "opponent": "Spain", "date": "2023-07-05", "result": "Draw 1-1" }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "date": "2023-08-01",
+      "home_team": "Brazil",
+      "away_team": "Argentina",
+      "result": "2-1"
+    },
+    {
+      "date": "2023-07-25",
+      "home_team": "Germany",
+      "away_team": "Brazil",
+      "result": "0-0"
+    },
+    {
+      "date": "2023-07-20",
+      "home_team": "Argentina",
+      "away_team": "France",
+      "result": "3-2"
+    },
+    {
+      "date": "2023-07-15",
+      "home_team": "Spain",
+      "away_team": "Germany",
+      "result": "3-1"
+    },
+    {
+      "date": "2023-07-10",
+      "home_team": "France",
+      "away_team": "Italy",
+      "result": "2-0"
+    },
+    {
+      "date": "2023-06-30",
+      "home_team": "Italy",
+      "away_team": "Netherlands",
+      "result": "1-0"
+    },
+    {
+      "date": "2023-06-25",
+      "home_team": "Netherlands",
+      "away_team": "England",
+      "result": "2-1"
+    },
+    {
+      "date": "2023-06-15",
+      "home_team": "England",
+      "away_team": "Belgium",
+      "result": "3-0"
+    },
+    {
+      "date": "2023-06-05",
+      "home_team": "Belgium",
+      "away_team": "Portugal",
+      "result": "1-0"
+    },
+    {
+      "date": "2023-07-05",
+      "home_team": "Spain",
+      "away_team": "Portugal",
+      "result": "1-1"
+    }
+  ],
+  "standings": [
+    {
+      "team": "Brazil",
+      "played": 3,
+      "wins": 1,
+      "draws": 2,
+      "losses": 0,
+      "points": 5
+    },
+    {
+      "team": "Argentina",
+      "played": 3,
+      "wins": 1,
+      "draws": 0,
+      "losses": 2,
+      "points": 3
+    },
+    {
+      "team": "Germany",
+      "played": 2,
+      "wins": 0,
+      "draws": 1,
+      "losses": 1,
+      "points": 1
+    },
+    {
+      "team": "France",
+      "played": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "points": 3
+    },
+    {
+      "team": "Spain",
+      "played": 3,
+      "wins": 2,
+      "draws": 1,
+      "losses": 0,
+      "points": 7
+    },
+    {
+      "team": "Italy",
+      "played": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "points": 3
+    },
+    {
+      "team": "Netherlands",
+      "played": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "points": 3
+    },
+    {
+      "team": "England",
+      "played": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "points": 3
+    },
+    {
+      "team": "Belgium",
+      "played": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "points": 3
+    },
+    {
+      "team": "Portugal",
+      "played": 2,
+      "wins": 0,
+      "draws": 1,
+      "losses": 1,
+      "points": 1
+    }
+  ]
+}

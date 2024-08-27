@@ -10,8 +10,7 @@ interface MatchProps {
 }
 
 export default function standingstable({ team, played, wins, draws, losses, points }: MatchProps) {
-    const teamLower = team.toLowerCase();
-    
+  const teamLower = (team || '').toLowerCase();    
     return (
 <tr>
         <th>

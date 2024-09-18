@@ -54,7 +54,7 @@ export default function teams({ team }: any) {
             <div
               className="hero min-h-screen"
               style={{
-                backgroundImage: `url(../squad/${team.name}.jpg)`,
+                backgroundImage: `url(/squad/${team.name}.jpg)`,
               }}>
               <div className="hero-overlay bg-opacity-60">
               <div className="return__arrow--wrapper">

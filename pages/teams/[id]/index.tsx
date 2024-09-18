@@ -1,9 +1,7 @@
 import path from 'path';
 import fs from 'fs/promises';
-import Image from 'next/image';
 import IndividualTeamMatch from '@/pages/components/individualTeamMatch';
 import Individualplayers from '@/pages/components/individualplayers';
-import { Key } from 'readline';
 
 export async function getStaticPaths() {
     const filePath = path.join(process.cwd(), 'public', 'data', 'data.json');
